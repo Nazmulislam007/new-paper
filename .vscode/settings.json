@@ -1,0 +1,27 @@
+{
+	"workbench.colorTheme": "Default Dark+",
+
+	"editor.defaultFormatter": "biomejs.biome",
+	"editor.formatOnSave": true,
+	"[javascript]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": null
+	},
+	"[javascriptreact]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": null
+	},
+	"javascript.validate.enable": false,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.tslint": "explicit",
+		"source.organizeImports": "explicit"
+	},
+	"eslint.alwaysShowStatus": true,
+
+	"emmet.triggerExpansionOnTab": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+	"editor.tabSize": 2
+}
